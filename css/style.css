@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fdbadc;
+    color: #333;
+}
+
+header {
+    background-color: #ca0c78;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 15px;
+}
+
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #520027;
+}
+
+#menu #link-inicio {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+#hero {
+    background-color: #700643;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-texto {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-texto strong {
+    color: #ffcc00;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.hero-texto h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero-texto p {
+    color: #e0e0e0;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero-botoes {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-amarelo {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.btn-rosa {
+    background-color: #ca0c78;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.hero-imagem {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-imagem img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.legenda-imagem {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 0 0 8px;
+    width: 100%;
+}
+
+#fatos {
+    background-color: #f8f9fa;
+    padding: 40px;
+}
+
+.fatos-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.fatos-header small {
+    color: #d63384;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.fatos-header h2 {
+    color: #2b0017;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.numero-destaque {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.card .icone {
+    font-size: 18px;
+    color: #ffcc00;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    color: #2b0017;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+#chamada {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+#chamada strong {
+    color: #ffcc00;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#chamada h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:  #520027;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+#menu-final {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-rodape {
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}

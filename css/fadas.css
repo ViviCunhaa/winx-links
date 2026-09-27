@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fdbadc;
+    color: #333;
+    padding: 20px;
+}
+
+#topo-container {
+    background-color: #700643;
+    border-radius: 12px;
+    padding: 10px 20px 25px 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #ca0c78;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 20px;
+}
+
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #520027;
+    color: white;
+}
+
+#menu #link-fadas {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+#caixa-texto {
+    color: white;
+    padding: 10px 10px 0 10px;
+}
+
+#caixa-texto h2 {
+    font-size: 24px;
+    margin-top: 5px;
+    color: white;
+}
+
+#caixa-texto h3 {
+    font-size: 15px;
+    color: #ffe6f2;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.conteudo-destaque {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+small {
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    width: calc(33.333% - 14px);
+    min-width: 260px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #f2b3d6;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #2b0017;
+    margin-top: 12px;
+}
+
+.card p {
+    margin-top: 8px;
+    color: #555;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a000e;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
+
+#menu-final {
+    display: flex;
+    gap: 10px;
+}
+
+#menu-final a {
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
