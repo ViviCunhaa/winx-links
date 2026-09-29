@@ -8,13 +8,11 @@
 body {
     background-color: #fdbadc;
     color: #333;
-    padding: 20px;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #ca0c78;
-    padding: 15px 20px;
+    background-color: #d41e85;
+    padding: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +25,11 @@ header h1 {
     font-size: 18px;
 }
 
+.logo {
+    color: white;
+    font-size: 15px;
+}
+
 #menu {
     display: flex;
     gap: 10px;
@@ -34,11 +37,11 @@ header h1 {
 
 #menu a {
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 8px;
     border-radius: 4px;
     font-weight: bold;
     font-size: 13px;
-    background-color: #520027;
+    background-color: #b32469;
     color: white;
 }
 
@@ -47,21 +50,20 @@ header h1 {
     color: #000;
 }
 
-/* Conteúdo Principal */
-#caixa-texto {
-    background-color: #700643;
+#hero {
+    background-color:  #b32477;;
     color: white;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
-#caixa-texto h2 {
+#hero h2 {
     font-size: 22px;
-    margin: 5px 0;
+    margin: 5px;
 }
 
-#caixa-texto h3 {
+#hero h3 {
     font-size: 14px;
     color: #ffe6f2;
     font-weight: normal;
@@ -74,25 +76,24 @@ small {
     font-weight: bold;
 }
 
-/* Secção da Imagem + Cards de Fatos */
 #introducao {
-    background-color: #700643;
+    background-color: #d31c7e;
     color: white;
-    padding: 20px;
+    padding: 35px;
     border-radius: 8px;
     display: flex;
     gap: 20px;
 }
 
-.bloco-imagem {
-    width: 280px;
+.hero-imagem {
+    width: 300px;
 }
 
-.bloco-imagem img {
+.hero-imagem img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 6px 6px 0 0;
+    border-radius: 10px;
 }
 
 .legenda-imagem {
@@ -102,7 +103,7 @@ small {
     font-size: 12px;
     padding: 6px;
     text-align: center;
-    border-radius: 0 0 6px 6px;
+    border-radius:6px;
 }
 
 .bloco-fatos {
@@ -114,31 +115,26 @@ small {
 
 .bloco-fatos h3 {
     font-size: 18px;
-    margin-bottom: 5px;
+    padding-bottom: 50px;
 }
 
-/* Container dos Cards */
+
 .cards-fatos {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    display: flex;
+    gap: 30px;
 }
 
-/* Estilo de cada Card */
+
 .card-fato {
-    background-color: #520027;
-    padding: 12px 15px;
+    background-color: #7a0d42;
+    padding: 12px;
     border-radius: 6px;
     display: flex;
     align-items: center;
     gap: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.numero {
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffcc00;
 }
 
 .card-fato p {
@@ -152,25 +148,31 @@ small {
     margin-bottom: 2px;
 }
 
-/* Rodapé */
+#menu-final a {
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#sla{
+    display: flex;
+    gap: 90px;
+    margin-top: 35px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a000e;
-    padding: 15px 20px;
+    background-color:  #d11981;
+    padding: 35px;
     border-radius: 8px;
     margin-top: 20px;
     color: white;
     font-size: 12px;
 }
 
-#menu-final a {
-    background-color: #ffcc00;
-    color: #000;
-    text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 12px;
-}

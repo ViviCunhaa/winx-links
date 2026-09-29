@@ -6,31 +6,26 @@
 }
 
 body {
-    background-color: #fdbadc;
-    color: #333;
-    padding: 20px;
-}
-
-#topo-container {
-    background-color: #700643;
-    border-radius: 12px;
-    padding: 10px 20px 25px 20px;
-    margin-bottom: 20px;
+    background-color: #ff8bc5;
+    color: #000000;
 }
 
 header {
-    background-color: #ca0c78;
-    padding: 15px 20px;
+    background-color:#d41e85;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 8px;
-    margin-bottom: 20px;
 }
 
 header h1 {
     color: white;
     font-size: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 15px;
 }
 
 #menu {
@@ -40,11 +35,11 @@ header h1 {
 
 #menu a {
     text-decoration: none;
-    padding: 8px 14px;
+    padding: 8px;
     border-radius: 4px;
     font-weight: bold;
     font-size: 13px;
-    background-color: #520027;
+    background-color: #b32469;
     color: white;
 }
 
@@ -53,18 +48,19 @@ header h1 {
     color: #000;
 }
 
-#caixa-texto {
+#hero {
     color: white;
-    padding: 10px 10px 0 10px;
+    padding:10px;
+    background-color:#d41e85;
 }
 
-#caixa-texto h2 {
+#hero h2 {
     font-size: 24px;
     margin-top: 5px;
     color: white;
 }
 
-#caixa-texto h3 {
+#hero h3 {
     font-size: 15px;
     color: #ffe6f2;
     margin-top: 10px;
@@ -74,7 +70,6 @@ header h1 {
 .conteudo-destaque {
     margin-top: 25px;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 small {
@@ -82,7 +77,6 @@ small {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
-    display: block;
 }
 
 #cards {
@@ -97,11 +91,9 @@ small {
 .card {
     background-color: #ffffff;
     padding: 15px;
-    width: calc(33.333% - 14px);
     min-width: 260px;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #f2b3d6;
 }
 
 .card img {
@@ -113,13 +105,13 @@ small {
 
 .card h3 {
     font-size: 16px;
-    color: #2b0017;
+    color: #d31c7e;
     margin-top: 12px;
 }
 
 .card p {
     margin-top: 8px;
-    color: #555;
+    color: #080808;
     font-size: 13px;
     line-height: 1.4;
 }
@@ -128,8 +120,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a000e;
-    padding: 20px 30px;
+    background-color: #d11981;
+    padding: 20px;
     border-radius: 8px;
     margin-top: 30px;
 }
@@ -139,16 +131,11 @@ footer p {
     font-size: 12px;
 }
 
-#menu-final {
-    display: flex;
-    gap: 10px;
-}
-
 #menu-final a {
     background-color: #ffcc00;
     color: #000;
     text-decoration: none;
-    padding: 8px 14px;
+    padding: 8px;
     border-radius: 4px;
     font-weight: bold;
     font-size: 12px;

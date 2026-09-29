@@ -7,11 +7,11 @@
 
 body {
     background-color: #fdbadc;
-    color: #333;
+    color: #000000;
 }
 
 header {
-    background-color: #ca0c78;
+    background-color: #d41e85;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -30,11 +30,11 @@ header {
 
 #menu a {
     text-decoration: none;
-    color: white;
     padding: 6px;
     border-radius: 4px;
     font-size: 13px;
-    background-color: #520027;
+    background-color: #b32469;
+     color: white;
 }
 
 #menu #link-inicio {
@@ -43,7 +43,7 @@ header {
 }
 
 #hero {
-    background-color: #700643;
+    background-color: #b32477;
     color: white;
     padding: 40px;
     display: flex;
@@ -87,7 +87,7 @@ header {
     padding: 0;
 }
 
-.btn-amarelo {
+.botao-amarelo {
     background-color: #ffcc00;
     color: #000;
     padding: 8px;
@@ -98,7 +98,7 @@ header {
     display: inline-block;
 }
 
-.btn-rosa {
+.botao-rosa {
     background-color: #ca0c78;
     color: white;
     padding: 8px;
@@ -111,9 +111,6 @@ header {
 
 .hero-imagem {
     width: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .hero-imagem img {
@@ -129,7 +126,7 @@ header {
     font-size: 12px;
     padding: 8px;
     text-align: center;
-    border-radius: 0 0 8px;
+    border-radius: 8px;
     width: 100%;
 }
 
@@ -143,6 +140,8 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 25px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .fatos-header small {
@@ -152,15 +151,9 @@ header {
 }
 
 .fatos-header h2 {
-    color: #2b0017;
+    color: #b32f75;
     font-size: 20px;
     margin-top: 5px;
-}
-
-.numero-destaque {
-    font-size: 22px;
-    font-weight: bold;
-    color: #d63384;
 }
 
 .cards-container {
@@ -172,12 +165,12 @@ header {
     background-color: white;
     padding: 25px;
     border-radius: 6px;
-    flex: 1;
+    flex: 1px;
     text-align: center;
     border: 1px solid #eee;
 }
 
-.card .icone {
+.card-icone {
     font-size: 18px;
     color: #ffcc00;
     margin-bottom: 12px;
@@ -185,18 +178,18 @@ header {
 
 .card h3 {
     color: #2b0017;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
 .card p {
-    color: #666;
+    color: #000000;
     font-size: 12px;
     line-height: 1.4;
 }
 
 #chamada {
-    background-color: #d63384;
+    background-color:  #bb247c;
     color: white;
     text-align: center;
     padding: 35px;
@@ -214,21 +207,6 @@ header {
     margin-bottom: 20px;
 }
 
-footer {
-    background-color:  #520027;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 12px;
-}
-
-#menu-final {
-    display: flex;
-    gap: 10px;
-}
-
 .btn-rodape {
     background-color: #ffcc00;
     color: #000;
@@ -236,5 +214,16 @@ footer {
     padding: 8px;
     border-radius: 4px;
     font-weight: bold;
+    font-size: 12px;
+}
+
+
+footer {
+    background-color: #d11981;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 12px;
 }
