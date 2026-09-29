@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #ff8bc5;
+    background-color: #fd6eb6;
     color: #000000;
 }
 
 header {
-    background-color:#d41e85;
+    background-color:#fd6eb6;;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,9 @@ header {
 header h1 {
     color: white;
     font-size: 20px;
+
+
+
 }
 
 .logo {
@@ -34,7 +37,6 @@ header h1 {
 }
 
 #menu a {
-    text-decoration: none;
     padding: 8px;
     border-radius: 4px;
     font-weight: bold;
@@ -91,7 +93,8 @@ small {
 .card {
     background-color: #ffffff;
     padding: 15px;
-    min-width: 260px;
+    width: 30%;
+    flex-wrap: nowrap;
     border-radius: 8px;
     text-align: center;
 }

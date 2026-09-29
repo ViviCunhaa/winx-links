@@ -1,0 +1,31 @@
+Documentação do Projeto: Vitrine das Winx ✨
+
+1- Como organizei os arquivos?
+
+Para não virar uma bagunça, dividi tudo em pastas:
+
+-Página inicial (index.html): A capa do site com o texto principal.
+-Página de fadas (fadas.html): Onde ficam os cards com a foto e o poder de cada Winx.
+-Página de curiosidades (curiosidades.html): Onde coloquei a curiosidades sobre o desenho e sobre os personagens.
+-Pasta de CSS: Onde guardei os arquivos que dão cor e estilo pro site, tendo (curiosidades.css, style.css e fadas.css).
+-Pasta de Imagens: Onde ficam salvas as fotos das fadas.
+
+ 2- Como montei as páginas?
+
+Usei os elementos mais básicos e diretos da internet:
+
+-Topo: Coloquei o título do site e os botões do menu pra ir de uma página pra outra.
+-Meio da página: Um texto bonito de boas-vindas e depois vários quadradinhos (cards), cada um com a foto e a história de uma fada.
+-Rodapé: A parte lá de baixo com os créditos do trabalho e os botões pra baixar o arquivo ou ir pro site oficial.
+
+ 3- Cores e Estilo
+
+Tentei deixar tudo com a cara do desenho:
+
+-Usei bastante rosa e roxo pra combinar com o tema mágico.
+-Usei amarelo nos botões pra chamar atenção.
+-Deixei os botões e as fotos alinhados lado a lado pra não ficar nada torto na tela.
+
+4- O que achei de fazer?
+
+Foi bem legal pra aprender a organizar as pastas e deixar tudo bonitinho do meu gosto, adoro fazer essas coisas, mas confesso que é muito difícil de decorar todos os códigos tendo que ficar consultando o codeverse toda hora, mas tirando isso é muito gostoso de fazer.
